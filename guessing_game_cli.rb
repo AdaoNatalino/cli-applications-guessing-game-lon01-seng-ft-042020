@@ -7,11 +7,12 @@ def run_guessing_game
   array.delete(randon)
   if user_number == randon
     puts "You guessed the correct number!"
-    binding.pry
+    #binding.pry
     elsif array.include?(user_number)
     #binding.pry
       puts "Sorry! The computer guessed #{randon}."
     elsif user_number == 'exit'
+    binding.pry
       puts "Goodbye!"
   end
 end

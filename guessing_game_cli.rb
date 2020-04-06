@@ -7,5 +7,8 @@ def run_guessing_game
   array.delete(randon)
   binding.pry
   if user_number == randon
+    puts "You guessed the correct number!"
+  elsif array.include?(user_number)
     puts 
+  end
 end

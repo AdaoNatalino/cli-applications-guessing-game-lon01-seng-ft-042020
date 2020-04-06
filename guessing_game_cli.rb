@@ -9,7 +9,8 @@ def run_guessing_game
   if user_number == randon
     puts "You guessed the correct number!"
     elsif array.include?(user_number)
-    puts "Sorry! The computer guessed #{randon}."
+      puts "Sorry! The computer guessed #{randon}."
     elsif user_number == 'exit'
+      puts "Goodbye!"
   end
 end

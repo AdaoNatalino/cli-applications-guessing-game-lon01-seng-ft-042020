@@ -1,5 +1,5 @@
 def run_guessing_game
-  randon = rand(6)
+  randon = rand(6) + 1
   puts 'Guess your number between 1 and 6!'
   user_number = gets.chomp
   if user_number == randon

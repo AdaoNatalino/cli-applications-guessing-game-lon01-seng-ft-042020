@@ -6,5 +6,6 @@ def run_guessing_game
   array = [1, 2, 3, 4, 5, 6]
   array.delete(randon)
   binding.pry
-  
+  if user_number == randon
+    puts 
 end
